@@ -5,28 +5,28 @@
 </p>
 
 ## Authentification JWT : 
-    Sécurisation des endpoints API via JSON Web Tokens (JWT), permettant une inscription, connexion et déconnexion sécurisées des utilisateurs.
+Sécurisation des endpoints API via JSON Web Tokens (JWT), permettant une inscription, connexion et déconnexion sécurisées des utilisateurs.
     
 ## Gestion des utilisateurs :
-    Système d’inscription avec validation des données, incluant le nom, prénom, téléphone, email, rôle et mot de passe (haché avant stockage).
+Système d’inscription avec validation des données, incluant le nom, prénom, téléphone, email, rôle et mot de passe (haché avant stockage).
     
 ## Gestion des livres : 
-    Implémentation d’un système CRUD complet via des endpoints API RESTful.
+Implémentation d’un système CRUD complet via des endpoints API RESTful.
     
 ## Sécurisation et middleware : 
-    Utilisation de middleware pour l’authentification, la vérification CSRF et la gestion des limitations de requêtes.
+Utilisation de middleware pour l’authentification, la vérification CSRF et la gestion des limitations de requêtes.
     
 ## Notifications : 
-    Intégration du système de notifications Laravel pour informer les utilisateurs.
+Intégration du système de notifications Laravel pour informer les utilisateurs.
     
 ## Configuration avancée de la base de données : 
-    Stockage des données avec MySQL et optimisation des performances via Redis pour la mise en cache.
+Stockage des données avec MySQL et optimisation des performances via Redis pour la mise en cache.
     
 ## Tests et assurance qualité : 
-    Mise en place de tests unitaires et fonctionnels avec PHPUnit pour garantir la fiabilité de l’application.
+Mise en place de tests unitaires et fonctionnels avec PHPUnit pour garantir la fiabilité de l’application.
     
 ## Gestion des dépendances et assets : 
-    Utilisation de Composer pour la gestion des dépendances PHP et Vite pour l’optimisation des ressources front-end.
+Utilisation de Composer pour la gestion des dépendances PHP et Vite pour l’optimisation des ressources front-end.
     
 
 ## Technologies utilisées : Laravel, JWTAuth, MySQL, Redis, PHP, Composer, Vite.
