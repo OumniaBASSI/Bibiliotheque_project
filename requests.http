@@ -1,0 +1,81 @@
+POST http://127.0.0.1:8000/api/register
+content-type: application/json
+
+{
+    "nom": "Assebab",
+    "prenom": "Hamza",
+    "tel": "0606060606",
+    "email": "test@gmail.com",
+    "password": "test@gmail.com"
+}
+###
+
+POST http://127.0.0.1:8000/api/login
+content-type: application/json
+
+{
+    "email": "test@gmail.com",
+    "password": "test@gmail.com"
+}
+###
+
+GET http://127.0.0.1:8000/api/books
+content-type: application/json
+
+{
+}
+###
+
+POST http://127.0.0.1:8000/api/books
+content-type: application/json
+
+{
+    "title": "Test",
+    "description": "Test",
+    "type": "Essai",
+    "language": "Italien",
+    "editor": "Testing",
+    "category": "Documentaires",
+    "price": 22.00,
+    "author": "Test",
+    "cover": "no_cover.png"
+}
+###
+
+GET http://127.0.0.1:8000/api/books/52
+content-type: application/json
+
+{
+    
+}
+
+GET http://127.0.0.1:8000/api/books/51
+content-type: application/json
+
+{
+    
+}
+###
+
+DELETE http://127.0.0.1:8000/api/books/51
+content-type: application/json
+
+{
+    
+}
+###
+
+PUT http://127.0.0.1:8000/api/books/52
+content-type: application/json
+
+{
+    "title": "Mizou",
+    "description": "Hamza",
+    "type": "Essai",
+    "language": "Italien",
+    "editor": "Hamza",
+    "category": "Documentaires",
+    "price": 22.00,
+    "author": "Hamza",
+    "cover": "no-cover.png"
+}
